@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+    flex: 1;
+}
+
+.changeForm{
+    width: fit-content;
+    height: auto;
+    font-size: 15px;
+    
+}
+
+.switchButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
