@@ -1,5 +1,6 @@
 .content{
     display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
@@ -15,3 +16,15 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.sectionEntry{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+input{
+    width: 10%;
+    height: auto;
+}
+
