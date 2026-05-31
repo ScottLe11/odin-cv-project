@@ -45,7 +45,7 @@ function CurrentForm({formData, setFormData}){
     const handleSubmit = (e) => {
         e.preventDefault(); 
         console.log("Form submitted safely without page reload.");
-        window.print()
+        // window.print()
     };
 
     return(
@@ -61,9 +61,9 @@ function CurrentForm({formData, setFormData}){
             : (
                     
                     <>
-                        <button type="submit" className="submitForm">
+                        {/* <button type="submit" className="submitForm">
                             Submit here
-                        </button>
+                        </button> */}
 
                         <PDFDownloadLink
                             document={<ResumePDF formData={formData} />}
